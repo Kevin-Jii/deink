@@ -9,7 +9,7 @@
 
 
 ## 项目运行
-1、在 MySQL 中执行 `manifest/db/zze_admin_go.sql` 创建好数据库以及初始化数据；
+1、在 MySQL 中执行 `manifest/db/mysql.sql` 创建好数据库以及初始化数据；
 
 2、然后修改 `manifest/config/config.yaml` 中的数据库连接地址（`database.default.link`），格式如下：
 ```sql
