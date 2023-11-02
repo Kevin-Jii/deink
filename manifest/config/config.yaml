@@ -17,7 +17,7 @@ database:
     stdout: "true"
   default:
     type: mysql
-    link: "mysql:root:root@tcp(127.0.0.1:3306)/zze_admin_go?loc=Local&parseTime=true"
+    link: "mysql:testuser:Qq125346@tcp(rm-cn-uax3gnrwd000bto.rwlb.rds.aliyuncs.com:3306)/zze_admin_go?loc=Local&parseTime=true"
     charset: utf8mb4
     maxIdle: "10"
     maxOpen: "300"
